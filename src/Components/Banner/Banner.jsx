@@ -4,7 +4,7 @@ import BannerImg from '../Imegs/image_1.png'
 
 
 export default function Banner() {
-  const [data, setdata] = useState(Imegs_info.BannerItem)
+  const [data] = useState(Imegs_info.BannerItem)
   function modalActive() {
     document.getElementById("Modal").classList.add("Modal_Active")
 

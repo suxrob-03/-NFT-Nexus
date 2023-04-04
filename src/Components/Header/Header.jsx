@@ -1,15 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Imegs/logo.png";
 
 export default function Header({ user, CardDas }) {
-  const Itemslength = JSON.parse(
-    localStorage.getItem("Cards")
-      ? JSON.parse(localStorage.getItem("Cards")).length
-      : 0
-  );
-  const [GetItemLength] = useState(CardDas.length);
-
   function SearchActive() {
     document.getElementById("textsearch").style.top = "4px";
   }
@@ -31,16 +24,16 @@ export default function Header({ user, CardDas }) {
               <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <a>Discover</a>
+              <a href="/">Discover</a>
             </li>
             <li>
-              <a>Download</a>
+              <a href="/">Download</a>
             </li>
             <li>
-              <a>Community</a>
+              <a href="/">Community</a>
             </li>
             <li>
-              <a>Explore</a>
+              <a href="/">Explore</a>
             </li>
           </ul>
         </div>

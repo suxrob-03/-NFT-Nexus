@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Data from "./Json/CardsData.json";
 
-export default function Cards({ setCardDatas, CardDas }) {
-  const [Buttondata, setButtondata] = useState(Data.ButtonTitle);
-  const [CardData, setCardData] = useState(Data.Card);
+export default function Cards({ CardDas }) {
+  const [Buttondata] = useState(Data.ButtonTitle);
+  const [CardData] = useState(Data.Card);
 
   function SearchActive() {
     document.getElementById("cardsearch").style.display = "block";
@@ -11,10 +11,9 @@ export default function Cards({ setCardDatas, CardDas }) {
   function SearchNoactive() {
     document.getElementById("cardsearch").style.display = "none";
   }
-  let x = 0;
   function getValue(id) {
     for (let i = 0; i < Data.Card.length; i++) {
-      if (i == id) {
+      if (i === id) {
         CardDas.push(Data.Card[id]);
       }
     }
