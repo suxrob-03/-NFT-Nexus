@@ -1,0 +1,16 @@
+{
+    "BannerItem": [
+        {
+            "img": "./imges/bitcoin.png"
+        },
+        {
+            "img": "./imges/blockchain.png"
+        },
+        {
+            "img": "./imges/tether.png"
+        },
+        {
+            "img": "./imges/ethereum.png"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "Upload": [
+        {
+            "id":"1",
+            "pargirf": "Create an account on NFTNexus"
+        },
+        {
+            "id":"2",
+            "pargirf": "Click on the Upload Artbutton from the main menu"
+        },
+        {
+            "id":"3",
+            "pargirf": "Select the image file of your artwork and provide a detailed description, including the title, artist name, and any other relevant information."
+        },
+        {
+            "id":"4",
+            "pargirf": "Choose the type of NFT you want to create, such as a single edition or a limited series."
+        },
+        {
+            "id":"5",
+            "pargirf": "Set your asking price for the NFT and choose any additional options, such as a bidding process or a fixed price sale."
+        },
+        {
+            "id":"6",
+            "pargirf": "Review and confirm the details of your NFT listing and hit the Submit button.."
+        }
+    ]
+}
